@@ -1,0 +1,43 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+    &__logo {
+
+        
+        &--img {
+            height: 50px;
+        }
+    }
+}
+
+.Nav {
+    &__item {
+        display: inline-block;
+
+        &--item {
+
+        }
+    }
+}
+
+.Social {
+    &__item {
+        display: inline-block;
+
+        &--link {
+
+            &--icon {
+                height: auto;
+                width: 35px;
+            }
+        }
+    }
+}
+
+.test {
+    font-family: BudhayantiScript, sans-serif;
+}
+
