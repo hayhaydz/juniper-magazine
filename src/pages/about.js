@@ -1,11 +1,11 @@
 import React from 'react'
 import Layout from '../components/Layout/Layout'
 
-const Lifestyle = () => {
+const About = () => {
     return (
         <Layout>
-            <h1>Lifestyle page</h1>
+            <h1>About page</h1>
         </Layout>
     )
 }
-export default Lifestyle
+export default About

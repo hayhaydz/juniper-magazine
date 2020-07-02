@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 const Article = () => {
     return (
         <div className="Article">
-            <h1>Hello</h1>
+            <h1>Hello this is an article template</h1>
         </div>
     )
 }
