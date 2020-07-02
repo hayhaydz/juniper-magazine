@@ -1,5 +1,5 @@
 ---
-templateKey: lifestyle-post
+templateKey: article-post
 date: 2018-03-14T16:17:25.474Z
 title: The New City
 subtitle: Abu Dhabi

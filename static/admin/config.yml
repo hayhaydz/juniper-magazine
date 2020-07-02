@@ -11,10 +11,11 @@ collections:
     folder: 'src/content/lifestyle'
     create: true
     path: '{{title}}/index'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "lifestyle-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "article-post"}
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
