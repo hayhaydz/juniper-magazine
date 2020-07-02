@@ -1,3 +1,4 @@
+// Header
 .Header {
     display: flex;
     justify-content: space-between;
@@ -5,7 +6,8 @@
     height: 80px;
 
     &__logo {
-
+        margin-left: 25px;
+        padding: 0.5em;
         
         &--img {
             height: 50px;
@@ -16,28 +18,116 @@
 .Nav {
     &__item {
         display: inline-block;
+        margin-left: 25px;
 
-        &--item {
-
+        &:first-of-type {
+            margin-left: 0px;
         }
-    }
-}
-
-.Social {
-    &__item {
-        display: inline-block;
 
         &--link {
+            font-family: Roboto, sans-serif;
+            font-size: 1.2em;
+            color: #b3b3b3;
+            text-decoration: none;
+            padding: 0.3em;
+            transition: 200ms ease-in-out;
 
-            &--icon {
-                height: auto;
-                width: 35px;
+            &--active {
+                color: #131313;
+            }
+
+            &:hover, &:focus {
+                color: #131313;
             }
         }
     }
 }
 
-.test {
-    font-family: BudhayantiScript, sans-serif;
+.Social {
+    margin-right: 25px;
+
+    &__item {
+        display: inline-block;
+        margin-left: 15px;
+
+        &:first-of-type {
+            margin-left: 0px;
+        }
+
+        &--link {
+            display: block;
+            color: #000;
+            padding: 0.5em;
+            transition: 200ms ease-in-out;
+
+            &--icon {
+                height: auto;
+                width: 25px;
+            }
+
+            &:hover, &focus {
+                color: #929292;
+                fill: #929292;
+            }
+        }
+    }
+}
+
+//Shop Banner
+.ShopBanner {
+
+    &__link {
+        text-decoration: none;
+
+        &:hover {
+
+            .ShopBanner__link--banner {
+                &:after {
+                    opacity: 0.75;
+                }
+            }
+
+            .ShopBanner__link--heading {
+                padding: 0.8em 1.2em;
+            }
+        }
+
+        &--banner {
+            position: relative;
+            z-index: 10;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            background-image: url("../img/shopCover.jpg");
+            background-size: cover;
+            background-position: center;
+        
+            &:after {
+                content: '';
+                position: absolute;
+                z-index: 5;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #000000;
+                opacity: 0.25;
+                transition: 200ms ease-in-out;
+            }
+        }
+    
+        &--heading {
+            position: relative;
+            z-index: 6;
+            font-family: Roboto, sans-serif;
+            font-size: 3em;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #f7f7f7;
+            border: 5px solid #f7f7f7;
+            padding: 0.5em 1em;
+            transition: 200ms ease-in-out;
+        }
+    }
 }
 

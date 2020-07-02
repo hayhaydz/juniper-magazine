@@ -15,11 +15,11 @@ const Nav = () => {
         <nav className="Nav">
             <ul>
                 {links.map((link) => (
-                    <li className="Nav__item">
+                    <li className="Nav__item" key={link.to}>
                         <Link
-                            key={link.to}
                             to={link.to}
                             className="Nav__item--link"
+                            activeClassName="Nav__item--link--active"
                         >
                             {link.name}
                         </Link>
