@@ -131,3 +131,35 @@
     }
 }
 
+// Article Roll
+.ArticleRoll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__article {
+        width: 500px;
+
+        &--heading {
+            font-family: TheLightFont;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        &--subheading {
+
+        }
+
+        &--meta {
+
+        }
+
+        &--desc {
+
+        }
+
+        &--link {
+
+        }
+    }
+}

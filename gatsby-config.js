@@ -2,8 +2,10 @@ module.exports = {
   /* Your site config here */
   plugins: [
     `gatsby-plugin-sass`,
-    `gatsby-transformer-remark`,
     `gatsby-plugin-netlify-cms`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-image`,
     // {
     //   resolve: `gatsby-source-filesystem`,
     //   options: {
@@ -24,6 +26,19 @@ module.exports = {
         name: `src`,
         path: `${__dirname}/src/content`,
       },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590
+            }
+          }
+        ]
+      }
     }
   ],
 }
