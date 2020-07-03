@@ -38,3 +38,15 @@
 //   }
   
 // `
+
+import React from 'react'
+
+const Lifestyle = () => {
+    return (
+        <div>
+            <p>hi</p>
+        </div>
+    )
+}
+
+export default Lifestyle
