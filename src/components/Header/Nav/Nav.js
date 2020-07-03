@@ -4,11 +4,11 @@ import { Link } from 'gatsby'
 const Nav = () => {
     const links = [
         { name: 'Home', to: '/' },
-        { name: 'Fashion', to: '/fashion' },
-        { name: 'Interviews', to: '/interviews' },
-        { name: 'Lifestyle', to: '/lifestyle' },
-        { name: 'BTS', to: '/bts' },
-        { name: 'About', to: '/about' }
+        { name: 'Fashion', to: '/fashion/' },
+        { name: 'Interviews', to: '/interviews/' },
+        { name: 'Lifestyle', to: '/lifestyle/' },
+        { name: 'BTS', to: '/bts/' },
+        { name: 'About', to: '/about/' }
     ]
 
     return (

@@ -135,31 +135,75 @@
 .ArticleRoll {
     display: flex;
     justify-content: center;
-    align-items: center;
 
     &__article {
         width: 500px;
+        margin: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        &--img {
+            width: 90%;
+            box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.15);
+        }
 
         &--heading {
-            font-family: TheLightFont;
+            font-family: TheLightFont, sans-serif;
             font-weight: bold;
             font-size: 30px;
+            text-align: center;
+            margin-top: 25px;
         }
 
         &--subheading {
-
+            font-family: Slabo, serif;
+            font-weight: 300;
+            font-size: 22px;
+            text-align: center;
+            margin: 25px 0;
         }
 
         &--meta {
+            font-family: AndaleMono, monospace;
+            font-weight: 300;
+            text-align: center;
+            color: #3c3b3b;
+            margin-bottom: 15px;
+        }
 
+        &--section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         &--desc {
-
+            font-family: AvenirNextPro;
+            font-weight: 300;
+            text-align: center;
+            max-width: 85%;
+            margin-bottom: 15px;
         }
 
         &--link {
+            display: inline-block;
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 18px;
+            text-transform: uppercase;
+            color: black;
+            text-decoration: none;
+            border: 1px solid black;
+            padding: 0.5em 1em;
+            transition: 200ms ease-in-out;
 
+            &:hover {
+                color: #ffffff;
+                background-color: #000;
+            }
         }
     }
 }
