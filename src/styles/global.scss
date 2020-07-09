@@ -281,3 +281,67 @@
         transition: 300ms ease;
     }
 }
+
+// Article Template
+
+.Article {
+    margin-top: 150px;
+
+    &__date {
+        font-family: AndaleMono;
+        font-size: 18px;
+        text-align: center;
+        color: #272727;
+    }
+
+    &__heading {
+        font-family: BudhayantiScript;
+        font-size: 50px;
+        text-align: center;
+        line-height: 3em;
+        margin: 50px 0px;
+        margin-bottom: 15px;
+    }
+
+    &__subheading {
+        font-family: IowanOldStyle;
+        text-align: center;
+        font-size: 14px;
+        letter-spacing: 5px;
+        margin: 50px 0px;
+        margin-top: 15px;
+    }
+
+    &__author {
+        font-family: AndaleMono;
+        text-align: center;
+        margin: 50px 0px;
+        letter-spacing: 2px;
+    }
+
+    &__container {
+        max-width: 50%;
+        margin: auto;
+
+        & h4 {
+            font-family: IowanOldStyle;
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+
+        & p {
+            margin-bottom: 50px;
+            font-size: 18px;
+            font-family: IowanOldStyle;
+            line-height: 1.5em;
+
+            & img {
+                display: block;
+                max-width: 700px;
+                margin: auto;
+            }
+        }
+    }
+}

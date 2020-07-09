@@ -16,7 +16,7 @@ collections:
     label: 'Fashion'
     folder: 'src/content/fashion'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{slug}}'
     editor:
       preview: false
     fields:
@@ -35,7 +35,7 @@ collections:
     label: 'Interviews'
     folder: 'src/content/interviews'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{slug}}'
     editor:
       preview: false
     fields:
@@ -55,7 +55,7 @@ collections:
     label: 'Lifestyle'
     folder: 'src/content/lifestyle'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{slug}}'
     editor:
       preview: false
     fields:
@@ -71,7 +71,7 @@ collections:
     label: 'BTS'
     folder: 'src/content/bts'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{slug}}'
     editor:
       preview: false
     fields:
