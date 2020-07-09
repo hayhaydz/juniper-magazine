@@ -2,12 +2,16 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout/Layout'
+import TwoPostHero from '../components/TwoPostHero/TwoPostHero'
 import ArticleRoll from '../components/ArticleRoll/ArticleRoll'
 
 const Fashion = ({ data }) => {
     const posts = data.allMarkdownRemark.edges
+    const firstPosts = posts.splice(0, 2)
+    
     return (
         <Layout>
+            <TwoPostHero TwoPosts={firstPosts}/>
             <ArticleRoll data={posts} />
         </Layout>
     )
@@ -33,8 +37,8 @@ query {
             title
             featured_image {
               childImageSharp {
-                fluid(maxWidth: 500, quality: 100) {
-                  ...GatsbyImageSharpFluid
+                fluid(maxWidth: 1920, quality: 100) {
+                  ...GatsbyImageSharpFluid_withWebp
                 }
               }
             }

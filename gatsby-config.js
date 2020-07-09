@@ -6,6 +6,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-image`,
+    `gatsby-background-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
