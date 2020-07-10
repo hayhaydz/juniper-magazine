@@ -288,14 +288,12 @@
     margin-top: 150px;
 
     &__date {
-        font-family: AndaleMono;
         font-size: 18px;
         text-align: center;
         color: #272727;
     }
 
     &__heading {
-        font-family: BudhayantiScript;
         font-size: 50px;
         text-align: center;
         line-height: 3em;
@@ -304,7 +302,6 @@
     }
 
     &__subheading {
-        font-family: IowanOldStyle;
         text-align: center;
         font-size: 14px;
         letter-spacing: 5px;
@@ -313,7 +310,6 @@
     }
 
     &__author {
-        font-family: AndaleMono;
         text-align: center;
         margin: 50px 0px;
         letter-spacing: 2px;
@@ -324,7 +320,6 @@
         margin: auto;
 
         & h4 {
-            font-family: IowanOldStyle;
             font-size: 22px;
             font-weight: bold;
             margin-bottom: 10px;
@@ -334,7 +329,6 @@
         & p {
             margin-bottom: 50px;
             font-size: 18px;
-            font-family: IowanOldStyle;
             line-height: 1.5em;
 
             & img {
@@ -343,5 +337,34 @@
                 margin: auto;
             }
         }
+    }
+
+    &__credits {
+        max-width: 50%;
+        margin: auto;
+        font-family: AndaleMono;
+
+        &--heading {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 25px 0px
+        }
+
+        &--credit {
+            font-size: 18px;
+            margin: 5px 0px;
+        }
+    }
+}
+
+.Footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px;
+
+    &__copyright {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
     }
 }
