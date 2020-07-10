@@ -4,8 +4,6 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout/Layout'
 
 const Article = ({ data }) => {
-    console.log(data)
-
     return (
         <Layout>
             <div className="Article">
