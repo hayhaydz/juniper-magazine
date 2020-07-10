@@ -1,15 +1,15 @@
-import React from 'react'
-import { graphql } from 'gatsby'
+// import React from 'react'
+// import { graphql } from 'gatsby'
 
-import Layout from '../components/Layout/Layout'
+// import Layout from '../components/Layout/Layout'
 
-const Shop = () => {
-    return (
-        <Layout>
-            <div className="Shop">
+// const Shop = () => {
+//     return (
+//         <Layout>
+//             <div className="Shop">
 
-            </div>
-        </Layout>
-    )
-}
-export default Shop
+//             </div>
+//         </Layout>
+//     )
+// }
+// export default Shop
