@@ -100,6 +100,7 @@ collections:
           - { label: "Pixeland", value: "Pixeland" }
           - { label: "Iowan Old Style", value: "IowanOldStyle" }
           - { label: "Futurist", value: "Futurist" }
+          - { label: "Budhayanti Script", value: "BudhayantiScript" }
           - { label: "Avenir Next Pro", value: "AvenirNextPro" }
           - { label: "Andale Mono", value: "AndaleMono" }
       - { label: 'Title', name: 'title', widget: 'string' }
