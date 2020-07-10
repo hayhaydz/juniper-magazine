@@ -1,4 +1,4 @@
-// import React from 'react'
+import React from 'react'
 // import { graphql } from 'gatsby'
 
 // import Layout from '../components/Layout/Layout'
@@ -45,3 +45,7 @@
 //   }
   
 // `
+const interviews = () => {
+    return <div></div>
+}
+export default interviews

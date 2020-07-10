@@ -7,20 +7,20 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-image`,
     `gatsby-background-image`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `src`,
-        path: `${__dirname}/static/img`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `src`,
-        path: `${__dirname}/src/img`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `src`,
+    //     path: `${__dirname}/static/img`,
+    //   },
+    // },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `src`,
+    //     path: `${__dirname}/src/img`,
+    //   },
+    // },
     // {
     //   resolve: `gatsby-source-filesystem`,
     //   options: {

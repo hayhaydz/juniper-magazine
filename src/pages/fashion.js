@@ -1,4 +1,4 @@
-// import React from 'react'
+import React from 'react'
 // import { graphql } from 'gatsby'
 
 // import Layout from '../components/Layout/Layout'
@@ -49,3 +49,9 @@
 //   }
   
 // `
+const fashion = () => {
+    return (
+        <div></div>
+    )
+}
+export default fashion
