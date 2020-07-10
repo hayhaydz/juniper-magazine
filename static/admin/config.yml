@@ -77,11 +77,71 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "article-post"}
       - { label: 'Featured Image', name: 'featured-image', widget: image }
+      - label: "Date Font"
+        name: "date-font"
+        widget: "select"
+        options:
+          - { label: "Roboto", value: "Roboto" }
+          - { label: "The Light Font", value: "TheLightFont" }
+          - { label: "Slabo", value: "Slabo" }
+          - { label: "Pixeland", value: "Pixeland" }
+          - { label: "Iowan Old Style", value: "IowanOldStyle" }
+          - { label: "Futurist", value: "Futurist" }
+          - { label: "Avenir Next Pro", value: "AvenirNextPro" }
+          - { label: "Andale Mono", value: "AndaleMono" }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - label: "Title Font"
+        name: "title-font"
+        widget: "select"
+        options:
+          - { label: "Roboto", value: "Roboto" }
+          - { label: "The Light Font", value: "TheLightFont" }
+          - { label: "Slabo", value: "Slabo" }
+          - { label: "Pixeland", value: "Pixeland" }
+          - { label: "Iowan Old Style", value: "IowanOldStyle" }
+          - { label: "Futurist", value: "Futurist" }
+          - { label: "Avenir Next Pro", value: "AvenirNextPro" }
+          - { label: "Andale Mono", value: "AndaleMono" }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - label: "Subtitle Font"
+        name: "subtitle-font"
+        widget: "select"
+        options:
+          - { label: "Roboto", value: "Roboto" }
+          - { label: "The Light Font", value: "TheLightFont" }
+          - { label: "Slabo", value: "Slabo" }
+          - { label: "Pixeland", value: "Pixeland" }
+          - { label: "Iowan Old Style", value: "IowanOldStyle" }
+          - { label: "Futurist", value: "Futurist" }
+          - { label: "Avenir Next Pro", value: "AvenirNextPro" }
+          - { label: "Andale Mono", value: "AndaleMono" }
       - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
+      - label: "Author Font"
+        name: "author-font"
+        widget: "select"
+        options:
+          - { label: "Roboto", value: "Roboto" }
+          - { label: "The Light Font", value: "TheLightFont" }
+          - { label: "Slabo", value: "Slabo" }
+          - { label: "Pixeland", value: "Pixeland" }
+          - { label: "Iowan Old Style", value: "IowanOldStyle" }
+          - { label: "Futurist", value: "Futurist" }
+          - { label: "Avenir Next Pro", value: "AvenirNextPro" }
+          - { label: "Andale Mono", value: "AndaleMono" }
       - { label: 'Author', name: 'author', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'text' }
+      - label: "Body Font"
+        name: "body-font"
+        widget: "select"
+        options:
+          - { label: "Roboto", value: "Roboto" }
+          - { label: "The Light Font", value: "TheLightFont" }
+          - { label: "Slabo", value: "Slabo" }
+          - { label: "Pixeland", value: "Pixeland" }
+          - { label: "Iowan Old Style", value: "IowanOldStyle" }
+          - { label: "Futurist", value: "Futurist" }
+          - { label: "Avenir Next Pro", value: "AvenirNextPro" }
+          - { label: "Andale Mono", value: "AndaleMono" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Credits', 
           name: 'credits', 
