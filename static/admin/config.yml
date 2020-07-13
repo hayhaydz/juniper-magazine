@@ -333,18 +333,18 @@ collections:
           field: { label: 'Credit', name: 'credit', widget: 'string' }}
   - name: "pages"
   - label: "Pages"
-  files:
-    - file: "src/content/shop.md"
-      label: "Shop"
-      name: "shop"
-      fields: 
-        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "shop-page"}
-        - {label: "Cover Image", name: "coverImage", widget: "image"}
-        - {label: "Price", name: "price", widget: "string"}
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Description", name: "description", widget: "text"}
-        - {label: "Details", name: "details", widget: "text"}
-        - label: "Gallery"
-          name: "galleryImages"
-          widget: "list"
-          field: {label: Image, name: image, widget: image}
+    files:
+      - file: "src/content/shop.md"
+        label: "Shop"
+        name: "shop"
+        fields: 
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "shop-page"}
+          - {label: "Cover Image", name: "coverImage", widget: "image"}
+          - {label: "Price", name: "price", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Details", name: "details", widget: "text"}
+          - label: "Gallery"
+            name: "galleryImages"
+            widget: "list"
+            field: {label: Image, name: image, widget: image}
