@@ -8,43 +8,32 @@ title: Growing Up
 subtitle-font: TheLightFont
 subtitle: FASHION
 author-font: AndaleMono
-author: Stacey Wylie
+author: Katherine De Sousa
 body-font: IowanOldStyle
 credits:
-  - Text | Stacey Wylie
-  - Photography | Alex Munro
-  - Models | Yasmin Main | Maisie Main
+  - Text | Katherine De Sousa
+  - Photography | Jessica Lena
+  - Model | Courtney Donegal
   - Styling & Art direction | Leticia Curteis-Lateo
-  - Wardrobe | Loot vintage | Topshop | Asos | Urban Outfitters
 ---
-![](/img/fashiona2.jpg)
+![](/img/growingup1.jpg)
 
-Do you feel outdated at parties because your friends can all afford to raid Topshop every week, yet you can’t? It’s a sad truth that people wearing the latest trends get more compliments out and about than those who don’t – but fret not! There is a way you can develop your own personal style, it costs much less than splurging every time you go out and you will look and feel better for it.
+My mum drove down the darkened country lanes. We’re both riding that post gig high having just seen our favourite band, Sundara Karma, at the Thekla in Bristol. Or as we call it ‘the boat that rocked’. Connecting my phone to the cars speaker I watched in anticipation as my clock changed to 00:00 am. It’s now the 29th September and I have just turned twenty. Gone are my awkward teenage years and I almost let out a sigh of relief but instead pressed play and settled for singing a passionate rendition of the only song I could possibly want to hear at that moment, The Courteeners Not Nineteen Forever.
 
-### Less is more
+![](/img/growingup2.jpg)
 
-Think about it, somebody who buys a new piece every week is never going to wear everything in their wardrobe. You can buy the trendiest stuff but without cohesion, most of it will go to waste. Think about your personal tastes and what colours and styles you enjoy. Isn’t it better to have a few pieces you adore, rather than a collection of odds and ends that once were in fashion? Ensure you invest in clothes that go together. You will soon have a mix and match wardrobe that you can create a ton of outfit combinations with and best of all one that is full of things you like.
+The jangly riff accompanied by four Mancs singing of teenage insecurities and romanticism filled the car and my head with the somewhat overwhelming notion that my teenage years were no more. That I am in fact on the brink of adulthood. My mind, however, preoccupied with the thought of how nineteen was by far my worst year. Broken hearted, parents splitting and a breakdown in my first year of university left little to be desired of nineteen. But as Courteeners lead singer Liam Fray chants You're not nineteen forever, pull yourself together I know it seems strange but things, they change no sentiment could ring truer. Life is ever changing and turning twenty was my much-anticipated quarter-life crisis. Only I did not splash out on a Porsche, invest in a never to be used gym membership or obsess over my ageing skin, instead, I became determined and motivated to find purpose somewhere in my life.
 
-### Learn what suits you
+![](/img/growingup6.jpg)
 
-Look at any famous style icon. Take Kim Kardashian for example, she has a classic look, one that is timeless. This is because she wears what suits her and works it. For Kim, it is mostly neutral colours and pieces that hug her hourglass figure. Identify your body type. If you’re curvy, high-waist bottoms will show off your assets. Those of you who are slim can totally pull off fitted jumpsuits and dresses. Trends may catch eyes, but if you are sporting something that compliments your body and skin tone, you will always turn heads.
+I thrust myself into all that University had to offer, workshops, lectures, careers meetings the lot. I had spent two years living vicariously through my boyfriend, fixated on his UCAS applications and prospects, and forgetting my own in the process. Projecting my own dissatisfaction onto him and wondering why I seemed to be continually just coasting through my degree, with average grades and little to show for a year’s work. Breaking up and being completely alone, as terrifying as it was, forced me to confront the daunting reality that I had no job prospects or experiences of my own. I wanted to work in social media but the realisation of the vagueness of that idea began to sow the seed of panic. One-third of the way through my degree and I had nothing to show that I had gone beyond the realms of just studying set texts and submitting essays. I could not set myself apart and would graduate with a mediocre BA Hons and apply aimlessly to any job that would take me. That simply was not good enough for over fifteen years in education.
 
-### Visit charity shops...a lot
+![](/img/growingup3.jpg)
 
-Vintage looks are storming the high street and if that’s what you’re in to, visit charity shops once a week. It’s a lucky dip but if you persevere, you can find a completely unique, authentic piece for pennies.
+Chest tightening, breathing quickening and sweating palms wiped on jeans the waves of panic were beginning to consume me. Years of dedication to my studies and hard work could not amount to a substandard and unfulfilling job. Or worse, no job at all. I wanted excitement. I wanted to feel challenged. But at the root of it all, I wanted to feel I would be making a worthwhile contribution and make some sort of difference. I spent hours updating my CV, searching the internet nightly for work experience, placements, and future jobs. I was completely focused. Years of schooling intertwined with personal interests and passions formed the feeling I hadn’t experienced in all my twenty years; certainty. I was certain I had to work harder, expect more for myself and expand beyond my personally constructed limitations. I could and can achieve more than I had previously been willing to settle for.
 
-![](/img/fashiona1.jpg)
+![](/img/growingup4.jpg)
 
-### Don't turn your nose up at cheaper alternatives
+On went that oh so familiar and severely overplayed guitar riff and I sang out Tried to get your attention all night long asked you once, I asked you twice, asked you four times If you'd like to dance to that song. Cutting some questionable shapes at this point before being interrupted by the chime of my phone notifying me off an email. I had just received confirmation of my place to teach English in Bali this summer. Traveling alone for the first time in my life to an unknown country for one whole month. I’m counting down the days and June could not come sooner. I’ve become the epitome of all my hero Beyoncé preaches; I’m a fierce, strong independent woman who can do anything I set my mind on. I’m going to travel, broaden my horizons and appreciate all that the world has to offer me.
 
-Brands like Primark and New Look often get looked down upon for not being as high-end as say, Urban Outfitters. That doesn’t mean they don’t have great, trend-aware designers working for them. If you must have a latest piece, double check these names before splurging at more expensive places.
-
-### Take stock of what you already have
-
-You see someone rocking a new outfit and chances are you immediately start hating your entire wardrobe. But there must be pieces in there you bought because you liked them! Do a wardrobe spring clean and think about all the clothes carefully. What pieces bring you joy? What fits you properly? What reflects you personally? What makes you feel good? On the other hand, what have you never worn? What was an impulse buy? Once you know what you have, you will know what you need and can make informed choices on what to buy next.
-
-![](/img/fashiona4.jpg)
-
-### Mix it up
-
-Are you a jewellery hoarder? Maybe you love make-up or doing your hair. You can make your wardrobe appear much more versatile by accessorising or switching your beauty regime up. Make an outfit more suitable for a date by doing soft, glowy make-up, then transform it into a party look with some winged eyeliner and your hoops. There’s a ton of make-up and hair tutorials online, by names such as Jaclyn Hill, Kathleen Lights and Kate, the lady behind The Small Things Blog.
+Now over halfway through my twentieth year and it’s my best year yet. I’m walking to work in time to the Manc teenage anthem, reminiscing how I’m indeed Not Nineteen Forever and I’m happy. I have an interview next month for a placement with Transport for London. My CV’s struggling to be contained in two pages and I have an abundance of glowing references reiterating the hard work ethic I’ve spent the past seven months conjuring. I’m doing it, setting into motion the foundations for the future I’ve dreamt of.
