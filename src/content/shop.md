@@ -56,4 +56,8 @@ galleryImages:
   - /img/shop7.jpg
   - /img/shop1.jpg
   - /img/shop2.jpg
+  - /img/shop3.jpg
+  - /img/shop4.jpg
+  - /img/shop5.jpg
+  - /img/shop6.jpg
 ---
