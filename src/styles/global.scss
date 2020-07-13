@@ -16,6 +16,8 @@
 }
 
 .Nav {
+    margin-right: 25px;
+
     &__item {
         display: inline-block;
         margin-left: 25px;
@@ -353,6 +355,169 @@
         &--credit {
             font-size: 18px;
             margin: 5px 0px;
+        }
+    }
+}
+
+.Shop {
+    max-width: 50%;
+    margin: auto;
+
+    &__price {
+        font-family: TheLightFont;
+        font-size: 40px;
+        margin: 25px 0px;
+    }
+
+    &__heading {
+        font-family: TheLightFont;
+        font-size: 52px;
+        font-weight: bold;
+        max-width: 65%;
+        margin: 25px 0px;
+        margin-top: 0px;
+        line-height: 1.2em;
+    }
+
+    &__rule {
+        max-width: 35%;
+        margin-left: 0px;
+        border-style: solid;
+        border-width: 2px;
+        margin-bottom: 75px;
+    }
+
+    &__description {
+        font-family: IowanOldStyle;
+        font-size: 18px;
+        line-height: 1.2em;
+        margin-bottom: 50px;
+    }
+
+    &__details {
+        white-space: pre-line;
+        font-family: AvenirNextPro;
+        font-size: 17px;
+        margin-bottom: 50px;
+    }
+
+    &__galleryImages {
+        &--img {
+            margin: 5px 0px;
+        }
+    }
+}
+
+.About {
+    &__title {
+        font-family: AvenirNextPro;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 50%;
+
+        &--headings {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &--heading {
+                font-family: TheLightFont;
+                font-size: 30px;
+                margin: 50px;
+                margin-left: 0px;
+            }
+
+            &--subheading {
+                font-family: Pixeland;
+                font-size: 30px;
+            }
+        }
+
+        &--img {
+            width: 50%;
+        }
+    }
+
+    &__right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 50%;
+
+        &--description {
+            max-width: 75%;
+            font-family: IowanOldStyle;
+            font-size: 18px;
+            line-height: 1.2em;
+        }
+
+        &--founder {
+            margin: 50px 0px;
+
+            &--heading {
+                display: inline-block;
+                font-family: AvenirNextPro;
+                font-size: 24px;
+            }
+
+            &--name {
+                display: inline-block;
+                font-family: BudhayantiScript;
+                font-size: 24px;
+                margin-left: 15px;
+            }
+        }
+
+        &--social {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+
+            &--heading {
+                font-family: AvenirNextPro;
+                font-size: 24px;
+                margin-bottom: 25px;
+            }
+        }
+
+        &--contact {
+            text-align: center;
+
+            &--heading {
+                font-family: TheLightFont;
+                font-size: 30px;
+                margin: 25px 0px;
+            }
+
+            &--link {
+                font-family: AvenirNextPro;
+                font-size: 18px;
+            }
+
+            &--text {
+                font-family: AvenirNextPro;
+                font-size: 18px;
+                margin-top: 10px;
+                margin-bottom: 25px;
+            }
         }
     }
 }

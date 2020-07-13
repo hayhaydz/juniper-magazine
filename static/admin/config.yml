@@ -337,7 +337,7 @@ collections:
       - file: "src/content/shop.md"
         label: "Shop"
         name: "shop"
-        fields: 
+        fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "shop-page"}
           - {label: "Cover Image", name: "coverImage", widget: "image"}
           - {label: "Price", name: "price", widget: "string"}

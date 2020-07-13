@@ -1,4 +1,5 @@
 ---
+templateKey: shop-page
 coverImage: /img/shophero.jpg
 price: "£8.00 // Please email me to purchase: leticia.cl999@hotmail.com"
 title: "JUNIPER MAGAZINE ISSUE #1"
