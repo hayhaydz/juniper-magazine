@@ -332,7 +332,7 @@ collections:
           widget: 'list',
           field: { label: 'Credit', name: 'credit', widget: 'string' }}
   - name: "pages"
-  - label: "Pages"
+    label: "Pages"
     files:
       - file: "src/content/shop.md"
         label: "Shop"
