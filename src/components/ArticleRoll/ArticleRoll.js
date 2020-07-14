@@ -8,7 +8,7 @@ const ArticleRoll = ({ data }) => {
             {data.map(({ node }) => {
                 return (
                     <article key={node.fields.slug} className="ArticleRoll__article">
-                        <Img fluid={node.frontmatter.featured_image.childImageSharp.fluid} className="ArticleRoll__article--img"/>
+                        <Img fluid={node.frontmatter.featured_image.childImageSharp.fluid} className="ArticleRoll__article--img" placeholderStyle={{filter: `blur(16px)`, transform: `scale(1.04)`}}/>
                         <header>
                             <h1 className="ArticleRoll__article--heading" >{node.frontmatter.title}</h1>
                             <h2 className="ArticleRoll__article--subheading">{node.frontmatter.subtitle}</h2>

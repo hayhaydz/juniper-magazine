@@ -8,7 +8,7 @@ const Shop = ({ data }) => {
     return (
         <Layout>
             <div className="Shop">
-                <Img fluid={data.markdownRemark.frontmatter.coverImage.childImageSharp.fluid} className="Shop__coverImage"/>
+                <Img fluid={data.markdownRemark.frontmatter.coverImage.childImageSharp.fluid} className="Shop__coverImage" placeholderStyle={{filter: `blur(16px)`, transform: `scale(1.04)`}}/>
                 <h2 className="Shop__price">{data.markdownRemark.frontmatter.price}</h2>
                 <h1 className="Shop__heading">{data.markdownRemark.frontmatter.title}</h1>
                 <hr className="Shop__rule" />
@@ -18,7 +18,7 @@ const Shop = ({ data }) => {
                     {data.markdownRemark.frontmatter.galleryImages.map((value, index) => {
                         return (
                             <div data-sal="fade" data-sal-duration="500" data-sal-delay="100" key={index}>
-                                <Img fluid={value.childImageSharp.fluid} className="Shop__galleryImages--img" />
+                                <Img fluid={value.childImageSharp.fluid} className="Shop__galleryImages--img" placeholderStyle={{filter: `blur(16px)`, transform: `scale(1.04)`}} />
                             </div>
                         )
                     })}
