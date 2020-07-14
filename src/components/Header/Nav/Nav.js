@@ -1,7 +1,9 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React, { useState } from 'react'
+import Menu from './Menu/Menu'
+import MenuIcon from './MenuIcon/MenuIcon'
 
 const Nav = () => {
+    const [open, setOpen] = useState(false)
     const links = [
         { name: 'Home', to: '/' },
         { name: 'Fashion', to: '/fashion/' },
@@ -12,21 +14,10 @@ const Nav = () => {
     ]
 
     return (
-        <nav className="Nav">
-            <ul>
-                {links.map((link) => (
-                    <li className="Nav__item" key={link.to}>
-                        <Link
-                            to={link.to}
-                            className="Nav__item--link"
-                            activeClassName="Nav__item--link--active"
-                        >
-                            {link.name}
-                        </Link>
-                    </li>
-                ))}
-            </ul>
-        </nav>
+        <div className="NavContainer">
+            <Menu links={links} open={open} setOpen={setOpen}/>
+            <MenuIcon open={open} setOpen={setOpen}/>
+        </div>
     )
 }
 export default Nav

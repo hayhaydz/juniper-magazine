@@ -15,8 +15,20 @@
     }
 }
 
+.NavContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .Nav {
     margin-right: 25px;
+    transition: 500ms ease;
+
+    &--open {
+        max-height: 500px !important;
+    }
 
     &__item {
         display: inline-block;
@@ -42,6 +54,24 @@
                 color: #131313;
             }
         }
+    }
+}
+
+.MenuIcon {
+    font-family: Roboto;
+    font-size: 18px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 25px;
+    display: none;
+    transition: 200ms ease;
+
+    &--active {
+        background-color: #000000;
+        color: #ffffff;
     }
 }
 
@@ -153,7 +183,7 @@
 
             &:hover {
                 .RecentArticles__articlesContainer--article {
-                    box-shadow: 25px 10px 25px rgba(0, 0, 0, 0.1);
+                    box-shadow: 15px 5px 25px rgba(0, 0, 0, 0.1);
                     background-color: #fdfdfd;
                     border-color: #dfdfdf;
                 }
@@ -161,33 +191,38 @@
         }
 
         &--article {
-            height: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
             margin: 50px 0px;
-            overflow: hidden;
             padding: 25px;
             border: 2px solid #000000;
-            display: flex;
             transition: 500ms ease;
+            max-width: 100%;
 
             &--img {
-                margin-right: 50px;
+                margin-right: 25px;
             }
 
             &--headings {
                 display: inline-block;
+                width: 40%;
             }
 
             &--heading {
                 font-family: TheLightFont;
                 font-weight: bold;
-                font-size: 34px;
+                font-size: 38px;
                 margin-bottom: 25px;
                 text-transform: uppercase;
+                margin-top: 0px;
                 
             }
 
             &--subheading {
                 font-family: IowanOldStyle;
+                font-weight: 100;
                 font-size: 26px;
                 margin-bottom: 15px;
                 text-transform: uppercase;
@@ -195,9 +230,10 @@
 
             &--date {
                 font-size: 16px;
+                font-family: AndaleMono;
+                font-weight: 100;
                 margin-bottom: 15px;
                 color: #3f3f3f;
-                font-family: AndaleMono;
             }
 
             &--author {
@@ -206,7 +242,6 @@
             }
 
             &--description {
-                max-width: 50%;
                 font-family: IowanOldStyle;
                 font-size: 18px;
             }
@@ -426,7 +461,7 @@
 
             & img {
                 display: block;
-                max-width: 700px;
+                max-width: 100%;
                 margin: auto;
             }
         }
@@ -457,6 +492,7 @@
     &__price {
         font-family: TheLightFont;
         font-size: 40px;
+        font-weight: 100;
         margin: 25px 0px;
     }
 
@@ -623,5 +659,184 @@
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
+    }
+}
+
+// Media Queries 
+@media(max-width: 1050px) {
+    .Header {
+        flex-direction: column;
+        height: auto;
+
+        &__logo {
+            margin: 0;
+            margin-bottom: 25px;
+        }
+    }
+
+    .Nav {
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    .Social {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .Article {
+        margin-top: 50px;
+
+        &__container {
+            max-width: 100%;
+            margin: 0px 25px;
+        }
+
+        &__credits {
+            max-width: 100%;
+            margin: 0px 25px;
+        }
+    }
+}
+
+@media(max-width: 950px) {
+    .RecentArticles {
+
+        &__articlesContainer {
+            &--article {
+                &--img {
+                    margin-right: 0px;
+                    width: 100% !important;
+                    height: 400px !important;
+                }
+    
+                &--headings {
+                    width: 100%;
+                }
+
+                &--heading {
+                    margin-top: 25px;
+                }
+            }
+        }   
+    }
+}
+
+@media(max-width: 800px) {
+    .ShopBanner {
+        &__link {
+            &--heading {
+                font-size: 2em;
+            }
+        }
+    }
+}
+
+@media(max-width: 650px) {
+    .ArticleRoll {
+        max-width: 100%;
+        margin: 0px 15px;
+
+        &__article {
+            margin: 25px 0px;
+        }
+    }
+}
+
+@media(max-width: 560px) {
+    .Header {
+        &__logo {
+            order: 1;
+        }
+    }
+    .Social {
+        order: 2;
+    }
+    .Nav {
+        max-height: 0;
+        overflow: hidden;
+        width: auto;
+        order: 0;
+
+        &__item {
+            display: block;
+            margin: 0;
+            text-align: center;
+            padding: 15px;
+        }
+    }
+    .MenuIcon {
+        display: block;
+    }
+
+    .ShopBanner {
+        &__link {
+            &--heading {
+                font-size: 1.6em;
+                text-align: center;
+                margin: 15px;
+            }
+        }
+    }
+}
+
+@media(max-width: 420px) {
+    .RecentArticles {
+        &__articlesContainer {
+            margin: 50px 15px;
+
+            &--article {
+                padding: 10px;
+
+                &--img {
+                    height: 200px !important;
+                }
+
+                &--heading {
+                    font-size: 30px;
+                }
+
+                &--subheading {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    .ArticleRoll {
+        &__article {
+            &--img {
+                height: 200px;
+            }
+            &--heading {
+                font-size: 28px;
+            }
+        }
+    }
+
+    .Article {
+        &__heading {
+            font-size: 42px;
+            line-height: 2em;
+        }
+    }
+}
+
+@media(max-width: 320px) {
+    .Article {
+        margin-top: 15px;
+
+        &__heading {
+            font-size: 38px;
+            margin: 50px 10px;
+        }
+
+        &__container {
+            margin: 0px 10px;
+        }
+
+        &__credits {
+            margin: 0px 10px;
+        }
     }
 }
