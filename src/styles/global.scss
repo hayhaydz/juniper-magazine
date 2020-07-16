@@ -669,6 +669,12 @@
     }
 }
 
+// Custom Changes
+.gatsby-resp-image-background-image {
+    filter: blur(16px);
+    transform: scale(1.04);
+}
+
 // Media Queries 
 @media(max-width: 1200px) {
     .About {

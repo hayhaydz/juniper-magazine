@@ -4,7 +4,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sass`,
-    `gatsby-plugin-netlify-cms`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-image`,
@@ -13,22 +12,22 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `src`,
-        path: `${__dirname}/static/img`,
+        name: `uploads`,
+        path: `${__dirname}/content/img`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `src`,
+        name: `images`,
         path: `${__dirname}/src/img`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `src`,
-        path: `${__dirname}/src/content`,
+        name: `content`,
+        path: `${__dirname}/content`,
       },
     },
     {
@@ -36,19 +35,25 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: `gatsby-remark-relative-images`,
+            resolve: `gatsby-plugin-netlify-cms-paths`,
             options: {
-              name: 'uploads',
+              cmsConfig: `/static/admin/config.yml`,
             },
           },
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 2048
+              maxWidth: 2400,
+              quality: 100,
+              withWebp: true,
+              loading: 'lazy',
+              linkImagesToOriginal: false,
+              wrapperStyle: 'overflow: hidden'
             }
           }
         ]
       }
-    }
+    },
+    `gatsby-plugin-netlify-cms`
   ],
 }
