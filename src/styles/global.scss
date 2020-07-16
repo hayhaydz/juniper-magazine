@@ -306,6 +306,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            width: 100%;
         }
 
         &--desc {
@@ -976,6 +977,12 @@
 
         &__credits {
             margin: 0px 10px;
+        }
+    }
+
+    .TwoPostHero {
+        &__heading {
+            margin-left: 25%;
         }
     }
 }
