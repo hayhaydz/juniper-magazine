@@ -1,5 +1,7 @@
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: 'Juniper Magazine'
+  },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-netlify-cms`,

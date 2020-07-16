@@ -14,7 +14,7 @@ const TwoPostHero = ({ TwoPosts }) => {
                     fluid={FirstPost.frontmatter.featured_image.childImageSharp.fluid}
                 >
                     <div className="TwoPostHero__titleContainer TwoPostHero__titleContainer--left" >
-                        <h1 className="TwoPostHero__heading" >{FirstPost.frontmatter.title}</h1>
+                        <h1 className="TwoPostHero__heading TwoPostHero__heading--left" >{FirstPost.frontmatter.title}</h1>
                         <h2 className="TwoPostHero__subheading" >{FirstPost.frontmatter.author}</h2>
                     </div>
                     <div className="TwoPostHero__tint"></div>

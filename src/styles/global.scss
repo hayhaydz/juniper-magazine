@@ -155,10 +155,12 @@
             font-size: 3em;
             font-weight: 900;
             text-transform: uppercase;
+            line-height: 1.2em;
             color: #f7f7f7;
-            border: 5px solid #f7f7f7;
+            border: 10px solid #f7f7f7;
             padding: 0.5em 1em;
             transition: 200ms ease-in-out;
+            text-align: center;
         }
     }
 }
@@ -389,6 +391,10 @@
         font-weight: 600;
         font-size: 32px;
         margin-bottom: 25px;
+
+        &--left {
+            max-width: 50%;
+        }
     }
 
     &__subheading {
@@ -663,6 +669,37 @@
 }
 
 // Media Queries 
+@media(max-width: 1200px) {
+    .About {
+        &__container {
+            flex-direction: column;
+        }
+
+        &__left {
+            max-width: 100%;
+
+            &--img {
+                width: 75%;
+            }
+
+            &--headings {
+                &--subheading {
+                    font-weight: 100;
+                }
+            }
+        }
+
+        &__right {
+            max-width: 100%;
+
+            &--description {
+                margin-top: 50px;
+                text-align: center;
+            }
+        }
+    }
+}
+
 @media(max-width: 1050px) {
     .Header {
         flex-direction: column;
@@ -727,8 +764,13 @@
         &__link {
             &--heading {
                 font-size: 2em;
+                border-width: 5px;
             }
         }
+    }
+
+    .Shop {
+        max-width: 75%;
     }
 }
 
@@ -773,8 +815,43 @@
         &__link {
             &--heading {
                 font-size: 1.6em;
-                text-align: center;
                 margin: 15px;
+            }
+        }
+    }
+
+    .Shop {
+        max-width: 100%;
+        margin: 0px 25px;
+
+        &__price {
+            font-size: 30px;
+        }
+
+        &__heading {
+            font-size: 42px;
+            max-width: 100%;
+        }
+    }
+
+    .About {
+        &__right {
+            &--founder {
+                text-align: center;
+
+                &--heading {
+                    margin-bottom: 15px;
+                }
+
+                &--name {
+                    line-height: 1.5em;
+                }
+            }
+
+            &--social {
+                &--heading {
+                    text-align: center;
+                }
             }
         }
     }
@@ -803,6 +880,22 @@
         }
     }
 
+    .TwoPostHero__heading {
+        font-size: 26px;
+    }
+
+    .Shop {
+        margin: 0px 15px;
+
+        &__price {
+            font-size: 26px;
+        }
+
+        &__heading {
+            font-size: 38px;
+        }
+    }
+
     .ArticleRoll {
         &__article {
             &--img {
@@ -818,6 +911,52 @@
         &__heading {
             font-size: 42px;
             line-height: 2em;
+        }
+    }
+
+    .About {
+        margin: 0px 15px;
+
+        &__title {
+            margin-top: 25px;
+        }
+
+        &__left {
+            &--headings {
+                &--heading {
+                    font-size: 24px;
+                }
+
+                &--subheading {
+                    font-size: 24px;
+                }
+            }
+
+            &--img {
+                width: 100%;
+            }
+        }
+
+        &__right {
+            &--description {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media(max-width: 360px) {
+    .About {
+        &__left {
+            &--headings {
+                &--heading {
+                    font-size: 20px;
+                }
+
+                &--subheading {
+                    font-size: 20px;
+                }
+            }
         }
     }
 }
