@@ -7,7 +7,7 @@ const ShopBanner = () => {
         <StaticQuery 
             query={graphql`
                 query {
-                    file(relativePath: { eq: "img/shopCover.jpg" }) {
+                    file(relativePath: { eq: "shopCover.jpg" }) {
                         childImageSharp {
                             fluid(maxWidth: 1920, quality: 100) {
                                 ...GatsbyImageSharpFluid_withWebp
@@ -16,6 +16,7 @@ const ShopBanner = () => {
                     }
                 }
             `}
+            // render={data => console.log(data)}
             render={data => (
                 <div className="ShopBanner">
                     <Link to={`/shop`} className="ShopBanner__link">
