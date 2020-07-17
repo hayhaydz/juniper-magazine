@@ -109,18 +109,24 @@
 .ShopBanner {
 
     &__link {
+        display: block;
         text-decoration: none;
+        overflow: hidden;
 
         &:hover {
 
             .ShopBanner__link--banner {
-                &:after {
+                .ShopBanner__link--tint {
                     opacity: 0.75;
                 }
             }
 
             .ShopBanner__link--heading {
-                padding: 0.8em 1.2em;
+                color: #000000;
+
+                &:before {
+                    width: 100%;
+                }
             }
         }
 
@@ -131,20 +137,10 @@
             justify-content: center;
             align-items: center;
             height: 500px;
-            background-image: url("../img/shopCover.jpg");
-            background-size: cover;
-            background-position: center;
-        
+
             &:after {
-                content: '';
-                position: absolute;
-                z-index: 5;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                background-color: #000000;
-                opacity: 0.25;
-                transition: 200ms ease-in-out;
+                filter: blur(16px);
+                transform: scale(1.04);
             }
         }
     
@@ -161,6 +157,29 @@
             padding: 0.5em 1em;
             transition: 200ms ease-in-out;
             text-align: center;
+
+            &:before{
+                content: '';
+                position: absolute;
+                z-index: -1;
+                top: 0;
+                left: 0;
+                width: 0;
+                height: 100%;
+                background-color: #f7f7f7;
+                transition: 400ms ease;
+            }
+        }
+
+        &--tint {
+            position: absolute;
+            z-index: 5;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000000;
+            opacity: 0.5;
+            transition: 200ms ease-in-out;
         }
     }
 }
@@ -186,8 +205,7 @@
             &:hover {
                 .RecentArticles__articlesContainer--article {
                     box-shadow: 15px 5px 25px rgba(0, 0, 0, 0.1);
-                    background-color: #fdfdfd;
-                    border-color: #dfdfdf;
+                    border-color: transparent;
                 }
             }
         }
@@ -200,7 +218,7 @@
             margin: 50px 0px;
             padding: 25px;
             border: 2px solid #000000;
-            transition: 500ms ease;
+            transition: 300ms ease-in-out;
             max-width: 100%;
 
             &--img {
@@ -344,6 +362,7 @@
     position: relative;
     z-index: 20;
     height: calc(100vh - 80px);
+    overflow: hidden;
 
     &__link {
         text-decoration: none;
@@ -368,6 +387,11 @@
             .TwoPostHero__tint {
                 opacity: 0.75;
             }
+        }
+
+        &:after {
+            filter: blur(16px);
+            transform: scale(1.04);
         }
     }
 
