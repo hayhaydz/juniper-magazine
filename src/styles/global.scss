@@ -138,7 +138,7 @@
             align-items: center;
             height: 500px;
 
-            &:after {
+            &:before {
                 filter: blur(16px);
                 transform: scale(1.04);
             }
@@ -391,7 +391,7 @@
             }
         }
 
-        &:after {
+        &:before {
             filter: blur(16px);
             transform: scale(1.04);
         }
@@ -693,12 +693,6 @@
         font-size: 16px;
         font-weight: 400;
     }
-}
-
-// Custom Changes
-.gatsby-resp-image-background-image {
-    filter: blur(16px);
-    transform: scale(1.04);
 }
 
 // Media Queries 
